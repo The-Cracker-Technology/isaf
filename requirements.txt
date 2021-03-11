@@ -1,0 +1,10 @@
+urllib3
+requests
+beautifulsoup4
+pysnmp
+gnureadline
+python-nmap
+scapy
+paramiko
+colorama
+pexpect
