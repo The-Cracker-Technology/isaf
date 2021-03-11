@@ -28,7 +28,7 @@ parser.add_argument('-e',
                     help='Add extra modules to ISAF. (Overwrites Configured One)')
 
 # GET VERSION LABEL #
-version_label = str(subprocess.check_output(["git", "describe"]).strip(), "utf-8").split("-")[0]
+version_label = "0.0.2-ANDRAX"
 
 
 def ISAF(extra_package_path=Configuration.EXTRA_PACKAGE_PATH):
